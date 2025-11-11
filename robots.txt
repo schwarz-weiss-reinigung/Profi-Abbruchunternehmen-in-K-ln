@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://abbruch-ravos-5893ff9b5459.herokuapp.com/sitemap.xml
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
