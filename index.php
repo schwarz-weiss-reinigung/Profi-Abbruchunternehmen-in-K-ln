@@ -9,7 +9,7 @@
 // Meta Information
 $page_title = "Professionelle Abbrucharbeiten in NRW: Der ultimative Leitfaden 2025";
 $meta_description = "Erfahren Sie alles über professionelle Abbrucharbeiten in NRW. Modernste Technologien, Sicherheitsstandards und nachhaltige Entsorgungsmethoden im Überblick.";
-$canonical_url = "https://abbruch.ravos.de/";
+$canonical_url = "https://abbruch-ravos-5893ff9b5459.herokuapp.com/";
 $contact_url = "https://abbruch.ravos.de/kontakt/";
 $cloudstack_url = "https://abbruch-ravos-cc733e.gitlab.io/";
 
@@ -48,6 +48,13 @@ $services = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="3mzUiSIoLmrq_m8ZCPRRbJlnHo78RZncHEqYA3HMC7g" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Robots & Indexing Tags -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+    
     <meta name="description" content="<?php echo htmlspecialchars($meta_description); ?>">
     <meta name="keywords" content="<?php echo implode(', ', array_merge([$primary_keyword], $secondary_keywords)); ?>">
     <meta name="robots" content="index, follow">
